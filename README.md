@@ -44,7 +44,7 @@ Frontend of a diploma project for Yandex Praktikum. This project is a multi-page
 ## Installation instructions:
 
 ```
-git clone 
+git clone https://github.com/AnastasiiaUferova/film-search.git
 
 cd film-search
 
