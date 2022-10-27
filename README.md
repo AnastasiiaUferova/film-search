@@ -55,3 +55,5 @@ npm run build
 npm run start
 ```
 
+## Link to the project
+https://AnastasiiaUferova.github.io/film-search

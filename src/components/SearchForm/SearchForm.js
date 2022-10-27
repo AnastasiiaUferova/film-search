@@ -32,18 +32,20 @@ const [isValid, setIsValid] = useState(true)
 
     function validate () {
         function isRequired(value) {
-            return value != null && value.trim().length > 0;
+            return value !== null && value.trim().length > 0;
         }
     
         if (!isRequired(searchQuery)) {
-            setIsValid(false);
             setError("Keyword required");
+            setIsValid(false);
         } 
         else {
             setIsValid(true);
             setError("");
         }
     }
+
+
 
 
 

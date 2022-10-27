@@ -103,14 +103,15 @@ const additionalInitialComponent = () => {
         )
     }
 }
-
+const queryCondition = query !== null && query.trim().length > 0
+const render = queryCondition ? totalFilteredInitial() : []
 
     return (
         <div>
         <div className="card-list"> 
             {additionalInitialComponent()}
         <div className="card-list__container">
-        {totalFilteredInitial().map((card) => {
+        {render.map((card) => {
     return <MoviesCard key={card.id} card={card}/>
         })}
         </div>

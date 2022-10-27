@@ -24,6 +24,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #000000;
+    border: none;
 }
 
 .nav-tab__link:hover {

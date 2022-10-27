@@ -4,7 +4,6 @@ import "./FilterCheckbox.css";
 
 function FilterCheckbox ({handleCheck, checked}) {
 
-
     return (
         <div className="checkbox">
             <label className="checkbox__switch">

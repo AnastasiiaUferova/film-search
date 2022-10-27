@@ -7,7 +7,7 @@ import FilterCheckbox from "../FilterCheckbox/FilterCheckbox";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
-function Movies ({isLoading, cards, showError, renderInitialCards, onCardToggle, renderSavedCards, savedMoviesIds, savedCards, isSaved}) {
+function Movies ({isLoading, cards, showError, renderInitialCards, onCardToggle}) {
 
     const [searchQuery, setSearchQuery] = useState('');
     const [optionCards, setOptionCards] =  useState([]);
