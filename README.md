@@ -1,4 +1,6 @@
-# React.js 'FILM_SEARCH' app
+# React.js 'FILM SEARCH' app
+
+## [Check out the project on GitHub Pages](https://AnastasiiaUferova.github.io/film-search)
 
 ## Description
 
@@ -9,7 +11,6 @@ Frontend of a diploma project for Yandex Praktikum. This project is a multi-page
 * Look through static landing main page;
 * Search for films from the DB;
 * Filter movies according to their length (filter short movies);
-
 
 ### API used
 
@@ -24,9 +25,9 @@ Frontend of a diploma project for Yandex Praktikum. This project is a multi-page
 * The page with movies is empty until a user carries out the first search. 
 
 ### Routes
-```/ ```— main page
-```/movies``` — movies library
-```/*``` — 404 page
+* ```/ ```— main page
+* ```/movies``` — movies library
+* ```/*``` — 404 page
 
 ## Technologies used
 
@@ -44,7 +45,7 @@ Frontend of a diploma project for Yandex Praktikum. This project is a multi-page
 ## Installation instructions:
 
 ```
-git clone 
+git clone https://github.com/AnastasiiaUferova/film-search.git
 
 cd film-search
 
